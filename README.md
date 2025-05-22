@@ -1,1 +1,53 @@
-# pavitha14
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sustainable AI Quiz</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0f7f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #2f855a;
+    }
+    .quiz-container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 15px;
+      background-color: #2f855a;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #276749;
+    }
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="quiz-container">
+  <h1>🌱 Sustainable AI Quiz</h1>
+  <div class="question">
+    <p>Which of the following is a way AI supports sustainability?</p>
+    <form id="quizForm">
+      <input type="radio" name="answer" value="a"> A) Increasing plastic use<br>
+      <input type="radio" name="answer" value="b"> B) Monitoring deforestation with satellite data<br>
+      <input type="radio" name="answer" value="c"> C
